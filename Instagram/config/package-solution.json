@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "instagram-feed-solution-client-side-solution",
+    "id": "8c8eba67-a350-4ab9-9a3d-a28bb0c11afa",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Instagram-feed-solution description"
+      },
+      "longDescription": {
+        "default": "Instagram-feed-solution description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "instagram-feed-solution Feature",
+        "description": "The feature that activates elements of the instagram-feed-solution solution.",
+        "id": "9639c525-3936-4385-af34-68f539eb468b",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/instagram-feed-solution.sppkg"
+  }
+}

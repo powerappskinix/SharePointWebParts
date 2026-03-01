@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.8",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.20.0",
+    "libraryName": "instagram-feed-solution",
+    "libraryId": "8c8eba67-a350-4ab9-9a3d-a28bb0c11afa",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "Instagram-feed-solution",
+    "solutionShortDescription": "Instagram-feed-solution description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

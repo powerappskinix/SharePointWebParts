@@ -1,3 +1,8 @@
+
+
+# Links úteis:
+https://learn.microsoft.com/pt-br/sharepoint/dev/spfx/set-up-your-development-environment
+
 # my-first-web-part
 
 ## Summary

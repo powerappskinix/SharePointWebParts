@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-world-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+          "manifest": "./src/webparts/helloWorld/HelloWorldWebPart.manifest.json"
+        }
+      ]
+    },
+    "my-callendar-teams-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myCallendarTeams/MyCallendarTeamsWebPart.js",
+          "manifest": "./src/webparts/myCallendarTeams/MyCallendarTeamsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloWorldWebPartStrings": "lib/webparts/helloWorld/loc/{locale}.js",
+    "MyCallendarTeamsWebPartStrings": "lib/webparts/myCallendarTeams/loc/{locale}.js"
+  }
+}

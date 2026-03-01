@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "aniversarios-client-side-solution",
+    "id": "57b68c80-d825-48d7-9ffc-c6ea510474a5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "aniversarios description"
+      },
+      "longDescription": {
+        "default": "aniversarios description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "aniversarios Feature",
+        "description": "The feature that activates elements of the aniversarios solution.",
+        "id": "d353038e-5562-4f38-87d0-55ca96edba29",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/aniversarios.sppkg"
+  }
+}

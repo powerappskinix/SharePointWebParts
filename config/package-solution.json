@@ -1,0 +1,47 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "my-first-web-part-client-side-solution",
+    "id": "80f712c7-21e2-4427-9c65-99e07d4dcc3d",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0",
+      "webApiPermissionRequests": [
+        {
+          "resource": "Microsoft Graph",
+          "scope": "Calendars.Read"
+        }
+      ]
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "My First WebPart description"
+      },
+      "longDescription": {
+        "default": "My First WebPart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "my-first-web-part Feature",
+        "description": "The feature that activates elements of the my-first-web-part solution.",
+        "id": "23869175-4002-448d-bf60-ace19236f966",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  
+  "paths": {
+    "zippedPackage": "solution/my-first-web-part.sppkg"
+  }
+}

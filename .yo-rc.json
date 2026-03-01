@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "nodeVersion": "18.20.8",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.20.0",
+    "libraryName": "my-first-web-part",
+    "libraryId": "80f712c7-21e2-4427-9c65-99e07d4dcc3d",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "My First WebPart",
+    "solutionShortDescription": "My First WebPart description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

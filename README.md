@@ -3,76 +3,90 @@
 # Links úteis:
 https://learn.microsoft.com/pt-br/sharepoint/dev/spfx/set-up-your-development-environment
 
-# WebPart Comunicados 
+# 🚀 SharePoint Web Parts - Guia de Configuração
 
-Lista PRECISA ter o nome Comunicados
-Precisa ter as seguintes colunas:
+Este repositório contém o código-fonte das Web Parts desenvolvidas em SPFx para a Intranet. Para o funcionamento correto, as listas do SharePoint devem seguir as nomenclaturas e estruturas abaixo.
 
-Título: título comunicado
-Descrição : várias linhas
-StatusComunicado: Coluna do tipo opção - Ativo ou Inativo
-CorCard : uma linha
-Icone: uma linha
-CorTexto: uma linha
-Area: Opção
+---
 
+## 📢 WebPart Comunicados
+**Nome da Lista:** `Comunicados`
 
-# WebPart Aniversariantes
-Lista PRECISA ter o nome Aniversariantes
+| Coluna | Tipo | Opções / Detalhes |
+| :--- | :--- | :--- |
+| **Título** | Uma linha de texto | Título do comunicado |
+| **Descrição** | Múltiplas linhas de texto | Conteúdo do card |
+| **StatusComunicado** | Opção | `Ativo`, `Inativo` |
+| **CorCard** | Uma linha de texto | Código Hexadecimal |
+| **Icone** | Uma linha de texto | Nome do ícone Fluent UI |
+| **CorTexto** | Uma linha de texto | Código Hexadecimal |
+| **Area** | Opção | Departamento responsável |
 
+---
 
-Título : nome do aniversariante
-Data de Nascimento: coluna uma linha
-Foto: coluna tipo foto
-Email: uma linha
-Funcao: uma linha
+## 🎂 WebPart Aniversariantes
+**Nome da Lista:** `Aniversariantes`
 
-# WebPart Destaques do Mês
+* **Título:** Nome do aniversariante
+* **Data de Nascimento:** Uma linha de texto
+* **Foto:** Coluna do tipo Imagem (Foto)
+* **Email:** Uma linha de texto
+* **Funcao:** Uma linha de texto
 
-Lista PRECISA ter o nome Destaques do Mês
+---
 
-Título: Nome do colaborador
-Conquista: várias linhas
-Foto: coluna tipo foto
-Area: uma linha
+## 🏆 WebPart Destaques do Mês
+**Nome da Lista:** `Destaques do Mês`
 
-# WebPart Movimentação de Pessoas 
+* **Título:** Nome do colaborador
+* **Conquista:** Múltiplas linhas de texto
+* **Foto:** Coluna do tipo Imagem (Foto)
+* **Area:** Uma linha de texto
 
-Lista PRECISA ter o nome Movimentação de Pessoas
+---
 
-Título: Nome do Colaborador
-Foto: coluna tipo foto
-Funcao: uma linha
-Departamento: uma linha
-TipoDestaque: coluna do tipo opção; precisa ter EXATAMENTE essas opções: Promoção, Admissão, Desligamento, Movimentação
-Email: uma linha
+## 🔄 WebPart Movimentação de Pessoas
+**Nome da Lista:** `Movimentação de Pessoas`
 
-# WebPart FAQ
-Nome da lista tanto faz desde que identifique que é categoria e pergunta
-Precisa de duas listas: Categoria e Perguntas
+* **Título:** Nome do Colaborador
+* **Foto:** Coluna do tipo Imagem (Foto)
+* **Funcao:** Uma linha de texto
+* **Departamento:** Uma linha de texto
+* **TipoDestaque:** Opção (`Promoção`, `Admissão`, `Desligamento`, `Movimentação`)
+* **Email:** Uma linha de texto
 
-Lista de Categoria:
-Nome da Categoria: coluna de Título
-Sequence: tipo número
-IsActive: Tipo sim ou não
+---
 
+## ❓ WebPart FAQ
+Esta solução depende de duas listas relacionadas:
 
-Lista de Perguntas:
-Sequencia: tipo número
-Pergunta: coluna título
-Resposta: várias linhas
-Categoria: tipo pesquisa sendo o nome da categoria da lista de categoria
-Visililidade: tipo sim ou não
+### 1. Lista de Categorias
+* **Título (Nome da Categoria):** Nome da categoria
+* **Sequence:** Número
+* **IsActive:** Sim/Não
 
+### 2. Lista de Perguntas
+* **Sequencia:** Número
+* **Título (Pergunta):** Texto da pergunta
+* **Resposta:** Múltiplas linhas de texto
+* **Categoria:** Lookup (Pesquisa) apontando para a lista de Categorias
+* **Visibilidade:** Sim/Não
 
-# WebPart Instagram
+---
 
-Só precisa inserir nela o @ a ser mostrado
+## 📸 WebPart Instagram
+* **Configuração:** Inserir o `@` do perfil desejado nas propriedades da Web Part.
 
-# WebPart do Calendário
+---
 
-Pega automático o calendário corporativo
+## 📅 WebPart do Calendário
+* **Funcionamento:** Consome automaticamente os eventos do calendário corporativo vinculado ao site.
 
+---
+
+## 🛠️ my-first-web-part
+* Web Part inicial de teste.
+* Desenvolvimento de componentes linha por linha para aprendizado.
 # my-first-web-part
 
 ## Summary

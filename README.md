@@ -1,3 +1,78 @@
+
+
+# Links úteis:
+https://learn.microsoft.com/pt-br/sharepoint/dev/spfx/set-up-your-development-environment
+
+# WebPart Comunicados 
+
+Lista PRECISA ter o nome Comunicados
+Precisa ter as seguintes colunas:
+
+Título: título comunicado
+Descrição : várias linhas
+StatusComunicado: Coluna do tipo opção - Ativo ou Inativo
+CorCard : uma linha
+Icone: uma linha
+CorTexto: uma linha
+Area: Opção
+
+
+# WebPart Aniversariantes
+Lista PRECISA ter o nome Aniversariantes
+
+
+Título : nome do aniversariante
+Data de Nascimento: coluna uma linha
+Foto: coluna tipo foto
+Email: uma linha
+Funcao: uma linha
+
+# WebPart Destaques do Mês
+
+Lista PRECISA ter o nome Destaques do Mês
+
+Título: Nome do colaborador
+Conquista: várias linhas
+Foto: coluna tipo foto
+Area: uma linha
+
+# WebPart Movimentação de Pessoas 
+
+Lista PRECISA ter o nome Movimentação de Pessoas
+
+Título: Nome do Colaborador
+Foto: coluna tipo foto
+Funcao: uma linha
+Departamento: uma linha
+TipoDestaque: coluna do tipo opção; precisa ter EXATAMENTE essas opções: Promoção, Admissão, Desligamento, Movimentação
+Email: uma linha
+
+# WebPart FAQ
+Nome da lista tanto faz desde que identifique que é categoria e pergunta
+Precisa de duas listas: Categoria e Perguntas
+
+Lista de Categoria:
+Nome da Categoria: coluna de Título
+Sequence: tipo número
+IsActive: Tipo sim ou não
+
+
+Lista de Perguntas:
+Sequencia: tipo número
+Pergunta: coluna título
+Resposta: várias linhas
+Categoria: tipo pesquisa sendo o nome da categoria da lista de categoria
+Visililidade: tipo sim ou não
+
+
+# WebPart Instagram
+
+Só precisa inserir nela o @ a ser mostrado
+
+# WebPart do Calendário
+
+Pega automático o calendário corporativo
+
 # my-first-web-part
 
 ## Summary

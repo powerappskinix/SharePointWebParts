@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "2fb5e9db-9f92-4a19-9fc0-4bc9c098700f",
+  "alias": "DestaquesDoMesWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03fd0b-9957-43d9-beb1-591e113a6b65",
+    "group": { "default": "Others" },
+    "title": { "default": "Movimentações de Pessoas" },
+    "description": { "default": "Novidades, Promoções e Movimentações da equipe" },
+    "officeFabricIconFontName": "Emoji2",
+    "properties": {
+      "corFundo": "#ffffff",
+      "imagemFundo": "",
+      "corTitulo": "#ffffff",
+      "corCard": "rgba(255,255,255,0.95)",
+      "titAdmissao": "Novos Integrantes 🤝",
+      "subAdmissao": "Sejam bem-vindos ao time!",
+      "corAdmissao": "#0078d4",
+      "titPromocao": "Promoções 🚀",
+      "subPromocao": "Parabéns pelas novas conquistas!",
+      "corPromocao": "#28a745",
+      "titMovimentacao": "Movimentações 🔄",
+      "subMovimentacao": "Sucesso nos novos desafios!",
+      "corMovimentacao": "#FF5C00",
+      "titDesligamento": "Ciclos que se Encerram 👋",
+      "subDesligamento": "Desejamos sucesso na nova jornada!",
+      "corDesligamento": "#3C3C3C"
+    }
+  }]
+}

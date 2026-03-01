@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "movimentacoes-pessoas-client-side-solution",
+    "id": "9148b05f-a256-430d-b141-a5671debed78",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Destaques_Mes description"
+      },
+      "longDescription": {
+        "default": "Destaques_Mes description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "destaques-mes Feature",
+        "description": "The feature that activates elements of the destaques-mes solution.",
+        "id": "ec1b4799-1b27-40c1-9e71-7adecbe30893",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/movimentacoes-pessoas.sppkg"
+  }
+}

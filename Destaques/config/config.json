@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "destaques-do-mes-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/destaquesDoMes/DestaquesDoMesWebPart.js",
+          "manifest": "./src/webparts/destaquesDoMes/DestaquesDoMesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DestaquesDoMesWebPartStrings": "lib/webparts/destaquesDoMes/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

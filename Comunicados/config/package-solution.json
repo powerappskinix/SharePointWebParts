@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "comunicados-client-side-solution",
+    "id": "dfef1e3a-3efd-42f1-8e93-89eedb89c7aa",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Comunicados description"
+      },
+      "longDescription": {
+        "default": "Comunicados description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "comunicados Feature",
+        "description": "The feature that activates elements of the comunicados solution.",
+        "id": "4933251d-d83c-4faa-97ad-c8364c2403d0",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/comunicados.sppkg"
+  }
+}

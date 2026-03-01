@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.8",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.20.0",
+    "libraryName": "comunicados",
+    "libraryId": "dfef1e3a-3efd-42f1-8e93-89eedb89c7aa",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "Comunicados",
+    "solutionShortDescription": "Comunicados description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

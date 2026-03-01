@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "destaques-empresa-client-side-solution",
+    "id": "0486f39a-369f-4549-892f-cc91569501c2",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "destaques-empresa description"
+      },
+      "longDescription": {
+        "default": "destaques-empresa description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "destaques-empresa Feature",
+        "description": "The feature that activates elements of the destaques-empresa solution.",
+        "id": "e39fbaac-b2a2-4e22-9b50-18fe8677a730",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/destaques-empresa.sppkg"
+  }
+}
